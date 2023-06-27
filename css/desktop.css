@@ -90,16 +90,16 @@ article#texto {
 }
 
 article#artigo-interno {
-    width:100%;
-    float:left;
+    width: 100%;
+    float: left;
 }
 
 aside#imagens {
     width: 300px;
-    float: right ;
+    float: right;
 }
 
-.imafem {
+.imagem {
     width: 300px;
 }
 
