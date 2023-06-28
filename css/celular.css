@@ -13,36 +13,6 @@ body {
     color: #333;
     background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom;
 }
-s
-Arrumando o local de estudos
-Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et quo num tendi nada.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.Suco de cevadiss deixa as pessoas mais interessantis.
-
-Quem num gosta di mim que vai caçá sua turmis!Manduma pindureta quium dia nois paga.Leite de capivaris, leite de mula manquis sem cabeça.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.
-
-Ergonomia da cadeira
-Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Paisis, filhis, espiritis santis.Aenean aliquam molestie leo, vitae iaculis nisl.
-
-Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Suco de cevadiss deixa as pessoas mais interessantis.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.
-
-Si num tem leite então bota uma pinga aí cumpadi!Sapien in monti palavris qui num significa nadis i pareci latim.Leite de capivaris, leite de mula manquis sem cabeça.Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
-
-Altura da tela em relação aos seus olhos
-Paisis, filhis, espiritis santis.Quem num gosta di mim que vai caçá sua turmis!Sapien in monti palavris qui num significa nadis i pareci latim.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
-
-Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Per aumento de cachacis, eu reclamis.Sapien in monti palavris qui num significa nadis i pareci latim.Quem num gosta di mim que vai caçá sua turmis!
-
-Atenção ao tempo diante da tela
-Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Interagi no mé, cursus quis, vehicula ac nisi.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
-
-Diuretics paradis num copo é motivis de denguis.Manduma pindureta quium dia nois paga.Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.Quem num gosta di mim que vai caçá sua turmis!
-
-Si num tem leite então bota uma pinga aí cumpadi!Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.A ordem dos tratores não altera o pão duris.Suco de cevadiss deixa as pessoas mais interessantis.
-
-Iluminação do ambiente
-Leite de capivaris, leite de mula manquis sem cabeça.Mé faiz elementum girarzis, nisi eros vermeio.Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.
-
-Quem manda na minha terra sou euzis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Detraxit consequat et quo num tendi nada.
-
 
 h1 {
     font-size: 4rem;
@@ -94,7 +64,7 @@ nav ul li {
 
 nav ul li a {
     padding: 2rem 0rem 2rem 2rem;
-    background-color: #333
+    background-color: #333;
     color: #fff;
     text-decoration: none;
     display: block;
@@ -110,41 +80,32 @@ nav ul li a:hover {
 }
 
 section {
-     width: 700px;
-     float: right;
+     width: 100%;
 }
 
-article#texto {
-    width: 360px;
-    float: left;
-}
-
-article#artigo-interno {
+article#texto, article#artigo-interno {
     width: 100%;
-    float: left;
 }
 
 aside#imagens {
-    width: 300px;
-    float: right;
+    width: 100%;
 }
 
 .imagem {
-    width: 300px;
+    width: 70%;
 }
 
 .video {
-    width: 580px;
-    height: 300px;
+    width: 794px;
+    height: 441px;
 }
 
 .mapa {
-    width: 700px;
-    height: 450px;
+    width: 800px;
+    height: 1000px;
 }
 
 footer {
-    clear: both; /*limpa os efeitos dos floats anteriores*/
     width: 100%;
     line-height: 50px;
     text-align: right;
@@ -154,7 +115,7 @@ footer {
 footer a {
     color:#000;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 1.7rem;
     font-style: italic;
 }
 
